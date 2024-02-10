@@ -1,0 +1,63 @@
+.squer {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+};
+button {
+  width: 150px;
+  height: 115px;
+  border-radius: 10%;
+  position: relative;
+  margin-top: 10px;
+  background-color: red;
+};
+button:hover {
+  transform: scale(1.9);
+  color: green;
+};
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top: 10;
+  position: relative;
+  background-color: yellow;
+  display: inline-block;
+};
+
+#redOne {
+  background-color: red;
+ 
+};
+#greenOne {
+  background-color: green;
+};
+#blackOne {
+  background-color: black;
+};
+
+#part1 {
+    position: relative;
+    background-color: aqua;
+    
+};
+#part2 {
+    position: relative;
+    background-color: yellow;
+    display:flex;
+    flex-wrap: wrap-reverse;
+};
+body {
+   display: inline-block;
+  
+};
+
+
+
+
+
+
+
+
+
+
