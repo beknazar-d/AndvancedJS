@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  
+  .panel {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Увеличена ширина панели */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+  }
+  
+  .search-bar {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  /* Фильтры */
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; /* Увеличена ширина контейнера с фильтрами */
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .employee-list {
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .employee-list h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+  
+  .add-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; /* Сделана шире форма добавления */
+  }
+  
+  .input-field {
+    width: 100%; /* Ширина полей ввода увеличена до 100% */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .add-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Ширина кнопки увеличена */
+    font-size: 1.2em;
+  }
+  
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .list {
+    box-sizing: border-box;
+    position: relative;
+    height: 50px;
+    border: 1px rgb(149, 146, 146);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style:none;
+    border-bottom: 2px solid grey;
+  }
+  .list span {
+    border: 1px solid grey;
+    height: 30px;
+    width: 300px;
+    align-content: center;
+    padding: 3px;
+  }
+  ol{
+    list-style-type: decimal;
+    height: 300px;
+    overflow: auto;
+  }

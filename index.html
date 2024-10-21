@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management Panel</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="panel">
+    <h2>Employee Management Panel</h2>
+
+    <!-- Search bar -->
+    <input type="text" id="search" placeholder="Search by name..." class="search-bar">
+
+    <!-- Filter buttons -->
+    <div class="filters">
+      <button class="filter-btn" id="salary-filter">Salary > 1000$</button>
+      <button class="filter-btn" id="promotion-filter">Promotion</button>
+    </div>
+
+    <!-- Employee list -->
+    <div id="employee-list" class="employee-list">
+      <ol id="list-container"></ol>
+
+      <!-- Employee items will appear here -->
+    </div>
+
+    <!-- Add employee form -->
+    <div class="add-employee">
+      <input type="text" id="name" placeholder="Enter name" class="input-field">
+      <input type="tel" id="number" placeholder="Enter phone number" class="input-field">
+      <button id="add-btn" class="add-btn">Add Employee</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
